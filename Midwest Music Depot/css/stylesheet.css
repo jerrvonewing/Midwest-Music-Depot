@@ -2,19 +2,122 @@ body
 {
     background-color: black;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1
 {
     color: blueviolet;
+    text-align: center;
 }
 
 h2
 {
-
+    text-align: center;
 }
 
 body
 {
     background-color: black;
+}
+
+ul
+{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(61,230,252);
+}
+
+button
+{
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+button:hover
+{
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}
+
+.logo-img
+{
+    border-radius: 100%;
+}
+
+.about-us p
+{
+    width: 50%;
+    font-style: italic;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.about
+{
+    color: rgb(237, 79, 255);
+}
+
+.artists
+{
+    color: rgb(43, 168, 207);
+}
+
+.art-table
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.art-table img
+{
+    border-radius: 100%;
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.shows
+{
+    color: rgb(255, 167, 89);
+}
+
+.shows-data
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.connect
+{
+    color: rgb(71, 133, 255);
+}
+
+.connect-table
+{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connect-table img
+{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }

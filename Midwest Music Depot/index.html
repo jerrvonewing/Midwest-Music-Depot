@@ -18,52 +18,47 @@
             <li><a href="connect.html">Connect</a></li>
             <li><a href="about-us.html">About Us</a></li>
         </ul>
-        <img src="img/logo.jpeg" alt="Midwest Music Depot logo">
+        <img src="img/logo.jpeg" alt="Midwest Music Depot logo" class="logo-img">
     </nav>
     <!-- Main content of the webpage -->
     <main>
         <h1>Midwest Music Depot</h1>
         <hr>
 
-        <h2>Artists</h2>
-        <!-- Table listing all artists -->
-            <table>
-                <tbody>
-                    <!-- Row includes image of each artist -->
-                    <tr>
-                        <td><img src="" alt="image of artist"></td>
-                        <td><img src="" alt="image of artist"></td>
-                        <td><img src="" alt="image of artist"></td>
-                        <td><img src="" alt="image of artist"></td>
-                        <td><img src="" alt="image of artist"></td>
-                    </tr>
-                    <!-- Row includes artist names -->
-                    <tr>
-                        <th>Adia Dew</th>
-                        <th>Color</th>
-                        <th>ItThinkItsBee</th>
-                        <th>Javon</th>
-                        <th>Warped Wonder</th>
-                    </tr>
-                </tbody>
-            </table>
+        <h2 class="artists">Artists</h2>
+            <div class="art-table">
+                <img src="img/profile-image.jpg" alt="image of artist">
+                <img src="img/profile-image.jpg" alt="image of artist">
+                <img src="img/profile-image.jpg" alt="image of artist">
+                <img src="img/profile-image.jpg" alt="image of artist">
+                <img src="img/profile-image.jpg" alt="image of artist">
+            </div>
+
         <hr>
-        <h2>Shows</h2>
+        <h2 class="shows">Shows</h2>
+        <div class="shows-data">
+            <p>
+                There are no shows available right now. Please check back later or subscribe to us.
+            </p>
+        </div>
         <hr>
-        <h2>Connect With Us</h2>
-        <!-- Table below includes links to all of the company's social media -->
-        <table>
-            <tbody>
-                <tr>
-                    <td><img src="" alt="Instagram logo"></td>
-                    <td><img src="" alt="TikTok logo"></td>
-                    <td><img src="" alt="YouTube logo"></td>
-                </tr>
-            </tbody>
-        </table>
+        <h2 class="about">About Us</h2>
+            <div class="about-us">
+                <p>
+                    "The mission of Midwest Music Depot (MMD) is to work with up-and-coming artists from the Midwest region to highlight their efforts to create a more informed public through virtual concerts and podcast interviews."
+                </p>
+            </div>
+        <hr>
+        <h2 class="connect">Connect With Us</h2>
+            <div class="connect-table">
+                <img src="img/instagram.png" alt="Instagram logo">
+                <img src="img/tiktok.png" alt="TikTok logo">
+                <img src="img/youtube.png" alt="YouTube logo">
+            </div> 
+            <br>
             <form action="/next">
                 <label for="subscribe-email">Email</label>
-                <input id="subscribe-email" name="email" type="email" placeholder="email address">
+                <input id="subscribe-email" name="email" type="email" placeholder="email address" class="subscribe-email">
                 <button>Subscribe</button>
             </form>
 
